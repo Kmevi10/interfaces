@@ -1,0 +1,20 @@
+/* Color Theme Swatches in Hex */
+.NBA-Simulate-1-hex { color: #FFC238; }
+.NBA-Simulate-2-hex { color: #E89E33; }
+.NBA-Simulate-3-hex { color: #FF9A45; }
+.NBA-Simulate-4-hex { color: #E86A33; }
+.NBA-Simulate-5-hex { color: #FF5838; }
+
+/* Color Theme Swatches in RGBA */
+.NBA-Simulate-1-rgba { color: rgba(255, 194, 56, 1); }
+.NBA-Simulate-2-rgba { color: rgba(232, 158, 51, 1); }
+.NBA-Simulate-3-rgba { color: rgba(255, 154, 69, 1); }
+.NBA-Simulate-4-rgba { color: rgba(232, 106, 51, 1); }
+.NBA-Simulate-5-rgba { color: rgba(255, 88, 56, 1); }
+
+/* Color Theme Swatches in HSLA */
+.NBA-Simulate-1-hsla { color: hsla(41, 100, 60, 1); }
+.NBA-Simulate-2-hsla { color: hsla(35, 79, 55, 1); }
+.NBA-Simulate-3-hsla { color: hsla(27, 100, 63, 1); }
+.NBA-Simulate-4-hsla { color: hsla(18, 79, 55, 1); }
+.NBA-Simulate-5-hsla { color: hsla(9, 100, 60, 1); }
