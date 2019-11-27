@@ -1,0 +1,161 @@
+/* 
+ * Aquí añado las furntes que voy a usar en el proyecto
+ * (En mi caso he usado comfortaa).
+ */
+
+@font-face {
+    font-family: ComfortaaN;
+    src: url(../fonts/Comfortaa_Bold.ttf);
+}
+
+@font-face {
+    font-family: ComfortaaR;
+    src: url(../fonts/Comfortaa_Regular.ttf);
+}
+
+@font-face {
+    font-family: ComfortaaS;
+    src: url(../fonts/Comfortaa_Thin.ttf);
+}
+
+* {
+    font-family: ComfortaaR;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+a {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #666666;
+    margin: 0px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+a:hover {
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #4DCC99;
+    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0.144);
+}
+
+.title {
+    font-family: ComfortaaN;
+    text-align: center;
+    color: #4e8d6d;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #333333;
+}
+
+.txt2 {}
+
+.limiter {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.auxContent {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: transparent;
+}
+
+.contenedorForm {
+    width: 50%;
+    background: rgba(255, 255, 255, 0.664);
+    border-radius: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 130px 33px 95px;
+}
+
+input {
+    outline: none;
+    border: none;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #4e8d6d;
+    display: block;
+    width: 100%;
+    background: #e6e6e6c4;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px 0 68px;
+    transition: 0.3s;
+}
+
+input:hover {
+    background-color: white;
+}
+
+label {
+    margin: 10px 20px;
+    color: rgb(107, 107, 107);
+}
+
+button {
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+    border-radius: 1000px;
+    background: #4DCC99;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.formulario {
+    width: 100%;
+}
