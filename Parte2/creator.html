@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login V1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/png" href="img/icons/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+    <video autoplay muted loop id="video">
+		<source src="video/login.mp4" type="video/mp4">
+	</video>
+    <div class="limiter">
+        <div class="auxContent">
+            <div class="contenedorForm">
+                <form class="formulario validate-form">
+                    <h1 class="title">Register</h1>
+
+                    <label for="email">Email:</label>
+                    <div class="wrap-input100">
+                        <!--
+						He creado un regex sencillo que lo que me dice es:
+							-Debe empezar por letra (1 o más y minúsculas).
+							-Que lo siga un "@".
+							-que continúe con más letras (1 o más y minúsculas).
+							-Que termine en "." seguido de "es" o "com".
+						He preferido hacerlo así en vez de por el type="email" para mostrar
+						más atributos que se suelen usar en los inputs.
+						Nota: Se que RegEx dejan poner + en vez de {1,} pero como me daba un
+						fallo lo he probado así y me funciona correctamente.
+						-->
+                        <input class="input100" type="text" name="email" placeholder='Email' required pattern="^[a-z]{1,}[@][a-z]{1,}[.](es|com)$">
+
+                        <label for="pass">Contraseña:</label>
+                        <input class="input100" type="password" name="pass" placeholder="Password">
+                    </div>
+
+                    <button>Registrarse</button>
+
+                    <a href="img/404.gif">
+							¿Tienes otra cuenta?
+						</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
