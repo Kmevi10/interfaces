@@ -24,17 +24,6 @@
 
                     <label for="email">Email:</label>
                     <div class="wrap-input100">
-                        <!--
-						He creado un regex sencillo que lo que me dice es:
-							-Debe empezar por letra (1 o más y minúsculas).
-							-Que lo siga un "@".
-							-que continúe con más letras (1 o más y minúsculas).
-							-Que termine en "." seguido de "es" o "com".
-						He preferido hacerlo así en vez de por el type="email" para mostrar
-						más atributos que se suelen usar en los inputs.
-						Nota: Se que RegEx dejan poner + en vez de {1,} pero como me daba un
-						fallo lo he probado así y me funciona correctamente.
-						-->
                         <input class="input100" type="text" name="email" placeholder='Email' required pattern="^[a-z]{1,}[@][a-z]{1,}[.](es|com)$">
 
                         <label for="pass">Contraseña:</label>
