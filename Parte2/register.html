@@ -13,29 +13,37 @@
     <video autoplay muted loop id="video">
 		<source src="video/login.mp4" type="video/mp4">
 	</video>
-    <div class="limiter">
+    <section class="limiter">
         <div class="auxContent">
             <div class="contenedorForm">
-                <form action="index.html" class="formulario validate-form">
+                <form action="home.html" class="formulario validate-form">
                     <h1 class="title">Register</h1>
 
-                    <label for="email">Email:</label>
-                    <input class="input100" type="email" name="email" placeholder='example@example.com' required pattern="^[a-z]{1,}[@][a-z]{1,}[.](es|com)$">
-                    <label for="user">Nombre de usuario:</label>
-                    <input class="input100" type="user" name="user" placeholder="Example00">
-                    <label for="tlf">Teléfono:</label>
-                    <input class="input100" type="tel" name="tlf" placeholder="(+34) 555 321 321">
-                    <label for="pass">Contraseña:</label>
-                    <input class="input100" type="password" name="pass" placeholder="Password">
+                    <section>
+                        <label for="email">Email:</label>
+                        <input class="input100" type="email" name="email" placeholder='example@example.com' required pattern="^[a-z]{1,}[@][a-z]{1,}[.](es|com)$">
+                    </section>
+                    <section>
+                        <label for="user">Nombre de usuario:</label>
+                        <input class="input100" type="user" name="user" placeholder="Example00" required pattern="\w">
+                    </section>
+                    <section>
+                        <label for="tlf">Teléfono:</label>
+                        <input class="input100" type="tel" name="tlf" placeholder="555666777" required pattern="\d{9}">
+                    </section>
+                    <section>
+                        <label for="pass">Contraseña:</label>
+                        <input class="input100" type="password" name="pass" placeholder="Password" required pattern="\w{8,}">
+                    </section>
                     <button>Registrarse</button>
-
-                    <a href="img/404.gif">
-							¿Tienes otra cuenta?
-						</a>
+                    <div class="separador">
+                        <a class="button">Continuar sin iniciar sesión</a>
+                    </div>
+                    <a href="img/404.gif">¿Tienes otra cuenta?</a>
                 </form>
             </div>
         </div>
-    </div>
+    </section>
 </body>
 
 </html>
