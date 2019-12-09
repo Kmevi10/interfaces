@@ -58,7 +58,7 @@ a:hover {
     text-decoration: none;
     color: #4DCC99;
     border-radius: 100px;
-    background-color: #000000a8;
+    background-color: #000000;
 }
 
 .title {
@@ -81,7 +81,6 @@ button:hover {
 .limiter {
     position: fixed;
     bottom: 0;
-    background: rgba(0, 0, 0, 0);
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
@@ -168,6 +167,10 @@ button {
 
 #tema{
     width: 10px;
+}
+
+.pol{
+    width: 5%;
 }
 
 @media only screen and (max-width: 650px) {
