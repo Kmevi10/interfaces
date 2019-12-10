@@ -1,0 +1,36 @@
+.carga {
+    height: 0px;
+    width: 100px;
+    background-color: rgb(0, 255, 179);
+    align-self: flex-end;
+    top: auto;
+    -webkit-animation-name: move;
+    -webkit-animation-duration: 4s;
+    animation-name: move;
+    animation-duration: 4s;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0%);
+        transform: translate3d( none, none);
+        height: 5px;
+    }
+    30% {
+        height: 5px;
+        width: 30px;
+        transform: translate(100vh);
+        transform: translate3d( none, none, 5px);
+    }
+    60% {
+        height: 5px;
+        transform: translate(220vh);
+        transform: translate3d( none, none);
+    }
+    100% {
+        transform: translate(220vh);
+    }
+}
+
+
+/* Efecto que da estética a la página*/

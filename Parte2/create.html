@@ -7,40 +7,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="img/icons/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="css/formularios.css">
+    <link rel="stylesheet" type="text/css" href="css/carga.css">
 
 </head>
 
 <body>
-    <section class="limiter">
-        <div class="auxContent">
-            <div class="contenedorForm">
-                <form action="index.html" class="formulario validate-form">
-                    <h1 class="title">Crea tu propia página</h1>
+    <main>
+        <section class="limiter">
+            <div class="auxContent">
+                <div class="contenedorForm">
+                    <form action="index.html" class="formulario validate-form">
+                        <h1 class="title">Crea tu propia página</h1>
 
-                    <section>
-                        <label for="color">Color corporativo:</label>
-                        <input class="color" type="color" name="color">
-                    </section>
-                    <section>
-                        <label for="tema">temática de la página:</label>
-                        <div class="tema"><input type="radio" name="tema" id="tema"><p>Blog.</p></div>
-                        <div class="tema"><input type="radio" name="tema" id="tema"><p>Video Juegos.</p></div>
-                        <div class="tema"><input type="radio" name="tema" id="tema"><p>Trabajo.</p></div>
-                        <div class="tema"><input type="radio" name="tema" id="tema"><p>Definir más tarde.</p></div>
-                    </section>
-                    <section>
-                        <label for="pag">Nº de páginas:</label>
-                        <input class="pag" type="number" name="pag" placeholder="8">
-                    </section>
-                    <section>
-                        <input class="pol" type="checkbox">
-                        <label for="pol">Acepto las políticas.</label>
-                    </section>
-                    <button>Registrarse</button>
-                </form>
+                        <section>
+                            <label for="color">Color corporativo:</label>
+                            <input class="color" type="color" name="color">
+                        </section>
+                        <section>
+                            <label for="tema">temática de la página:</label>
+                            <div class="tema"><input type="radio" name="tema" id="tema">
+                                <label for="tema">Blog.</label>
+                            </div>
+                            <div class="tema"><input type="radio" name="tema" id="tema2">
+                                <label for="tema2">Video Juegos.</label>
+                            </div>
+                            <div class="tema"><input type="radio" name="tema" id="tema3">
+                                <label for="tema3" id="tema3">Trabajo.</label>
+                            </div>
+                            <div class="tema"><input type="radio" name="tema" id="tema4">
+                                <label for="tema4">Definir más tarde.</label>
+                            </div>
+                        </section>
+                        <section>
+                            <label for="pag">Nº de páginas:</label>
+                            <input class="pag" type="number" name="pag" placeholder="8">
+                        </section>
+                        <section>
+                            <input class="pol" type="checkbox">
+                            <label for="pol">Acepto las políticas.</label>
+                        </section>
+                        <button>Registrarse</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
+    <div class="carga"></div>
 </body>
 
 </html>

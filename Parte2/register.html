@@ -7,44 +7,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="img/icons/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="css/formularios.css">
+    <link rel="stylesheet" type="text/css" href="css/carga.css">
 
 </head>
 
 <body>
     <video autoplay muted loop id="video">
 		<source src="video/login.mp4" type="video/mp4">
-	</video>
-    <section class="limiter">
-        <div class="auxContent">
-            <div class="contenedorForm">
-                <form action="home.html" class="formulario validate-form">
-                    <h1 class="title">Register</h1>
+    </video>
+    <main>
+        <section class="limiter">
+            <div class="auxContent">
+                <div class="contenedorForm">
+                    <form action="home.html" class="formulario validate-form">
+                        <h1 class="title">Register</h1>
 
-                    <div>
-                        <label for="email">Email:</label>
-                        <input id="email" class="input100" type="email" name="email" placeholder='example@example.com' required pattern="^[a-z]{1,}[@][a-z]{1,}[.](es|com)$">
-                    </div>
-                    <div>
-                        <label for="user">Nombre de usuario:</label>
-                        <input id="user" class="input100" type="text" name="user" placeholder="Example00" required pattern="\w">
-                    </div>
-                    <div>
-                        <label for="tlf">Teléfono:</label>
-                        <input id="tlf" class="input100" type="tel" name="tlf" placeholder="555666777" required pattern="\d{9}">
-                    </div>
-                    <div>
-                        <label for="pass">Contraseña:</label>
-                        <input id="pass" class="input100" type="password" name="pass" placeholder="Password" required pattern="\w{8,}">
-                    </div>
-                    <button>Registrarse</button>
-                    <div class="separador">
-                        <a>Continuar sin iniciar sesión</a>
-                    </div>
-                    <a href="img/404.gif">¿Tienes otra cuenta?</a>
-                </form>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input id="email" class="input100" type="email" name="email" placeholder='example@example.com' required pattern="^[a-z]{1,}[@][a-z]{1,}[.](es|com)$" autocomplete="off" autofocus>
+                            <!--
+                                No dejo autocompletar el correo para evitar fallos que se hayan guardado erroneamente en el navegador.
+                                También se le ha puesto el autofocus para que se marque como el primer elemento a rellenar del formulario
+                                sin necesidad de que el usuario tenga que clickarlo con el ratón.
+                            -->
+                        </div>
+                        <div>
+                            <label for="user">Nombre de usuario:</label>
+                            <input id="user" class="input100" type="text" name="user" placeholder="Example00" required pattern="\w">
+                        </div>
+                        <div>
+                            <label for="tlf">Teléfono:</label>
+                            <input id="tlf" class="input100" type="tel" name="tlf" placeholder="555666777" required pattern="\d{9}">
+                        </div>
+                        <div>
+                            <label for="pass">Contraseña:</label>
+                            <input id="pass" class="input100" type="password" name="pass" placeholder="Password" required pattern="\w{8,}">
+                        </div>
+                        <button>Registrarse</button>
+                        <div class="separador">
+                            <a>Continuar sin iniciar sesión</a>
+                        </div>
+                        <a href="img/404.gif">¿Tienes otra cuenta?</a>
+                    </form>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
+    <div class="carga"></div>
 </body>
 
 </html>
