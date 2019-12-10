@@ -9,16 +9,14 @@
     <title>Document</title>
 </head>
 
-<body class="body">
+<body>
     <div class="box header">
         <header>
-            <div class="logo">
-                <img src="img/logo.png" alt="logo_artisan">
-                <p class="titulomenu">ARTISAN</p>
-            </div>
-            <div class="user">
-                <a href="img/404.gif" class="enter">Log in</a>
-                <a href="register.html" class="enter">Register</a>
+            <img src="img/logo.png" class="logoimg" alt="logo_artisan">
+            <p class="logotxt">ARTISAN</p>
+            <div class="enter">
+                <a href="img/404.gif">Log in</a>
+                <a href="register.html">Register</a>
             </div>
         </header>
         <nav>
@@ -27,24 +25,47 @@
             <a class="enlaces" href="/create.html">Nueva WEB</a>
         </nav>
     </div>
-    <div class="box content">
-        <section>
-            <article>
-                <h2>Crea tus páginas</h2>
-                <img src="img/home/crear.png" alt="crea">
-            </article>
-            <article>
-                <h2>Registrate gratis</h2>
-                <img src="img/home/registrar.png" alt="registra">
-            </article>
-            <article>
-                <h2>Prueba nuestra página aquí:</h2>
-                <iframe src="register.html" frameborder="0"></iframe>
-            </article>
-        </section>
-    </div>
-    <div class="box footer">
-        <div class="copy">Copyright © 2019 ARTISAN. All Rights Reserved</div>
+    <div class="body">
+        <div class="box content">
+            <section>
+                <article>
+                    <h2>Crea tus páginas</h2>
+                    <figure>
+                        <img src="img/home/crear.png" class="logo" alt="crea">
+                        <figcaption>FIG 1 - Crear páginas</figcaption>
+                    </figure>
+                </article>
+                <article>
+                    <h2>Registrate gratis</h2>
+                    <figure>
+                        <img src="img/home/registrar.png" alt="registra">
+                        <figcaption>FIG 2 - Registro</figcaption>
+                    </figure>
+                </article>
+                <article class="iframe">
+                    <h2>Prueba nuestra página aquí:</h2>
+                    <iframe src="register.html" frameborder="0"></iframe>
+                </article>
+            </section>
+        </div>
+        <div class="box footer">
+            <div class="element">
+                <details>
+                    <summary>¿Quienes somos?</summary>
+                    <p>Hola p1</p>
+                    <p>Hola p2</p>
+                </details>
+            </div>
+            <div class="element">
+                <h3>Redes</h3>
+                <p></p>
+            </div>
+            <div class="element">
+                <h3>Contacto</h3>
+                <p></p>
+            </div>
+            <div class="copy">Copyright © 2019 ARTISAN. All Rights Reserved</div>
+        </div>
     </div>
 </body>
 
