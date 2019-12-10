@@ -20,25 +20,25 @@
                 <form action="home.html" class="formulario validate-form">
                     <h1 class="title">Register</h1>
 
-                    <section>
+                    <div>
                         <label for="email">Email:</label>
-                        <input class="input100" type="email" name="email" placeholder='example@example.com' required pattern="^[a-z]{1,}[@][a-z]{1,}[.](es|com)$">
-                    </section>
-                    <section>
+                        <input id="email" class="input100" type="email" name="email" placeholder='example@example.com' required pattern="^[a-z]{1,}[@][a-z]{1,}[.](es|com)$">
+                    </div>
+                    <div>
                         <label for="user">Nombre de usuario:</label>
-                        <input class="input100" type="user" name="user" placeholder="Example00" required pattern="\w">
-                    </section>
-                    <section>
+                        <input id="user" class="input100" type="text" name="user" placeholder="Example00" required pattern="\w">
+                    </div>
+                    <div>
                         <label for="tlf">Teléfono:</label>
-                        <input class="input100" type="tel" name="tlf" placeholder="555666777" required pattern="\d{9}">
-                    </section>
-                    <section>
+                        <input id="tlf" class="input100" type="tel" name="tlf" placeholder="555666777" required pattern="\d{9}">
+                    </div>
+                    <div>
                         <label for="pass">Contraseña:</label>
-                        <input class="input100" type="password" name="pass" placeholder="Password" required pattern="\w{8,}">
-                    </section>
+                        <input id="pass" class="input100" type="password" name="pass" placeholder="Password" required pattern="\w{8,}">
+                    </div>
                     <button>Registrarse</button>
                     <div class="separador">
-                        <a class="button">Continuar sin iniciar sesión</a>
+                        <a>Continuar sin iniciar sesión</a>
                     </div>
                     <a href="img/404.gif">¿Tienes otra cuenta?</a>
                 </form>

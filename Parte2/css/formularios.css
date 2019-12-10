@@ -46,10 +46,10 @@ a {
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     -moz-transition: all 0.4s;
-    text-decoration:none; 
+    text-decoration: none;
 }
 
-.tema{
+.tema {
     color: #666;
 }
 
@@ -72,7 +72,7 @@ button:hover {
     background: #333333;
 }
 
-.color{
+.color {
     width: 100%;
     padding: 0px;
     margin: 0% 4%;
@@ -165,11 +165,11 @@ button {
     width: 100%;
 }
 
-#tema{
+#tema {
     width: 10px;
 }
 
-.pol{
+.pol {
     width: 5%;
 }
 
@@ -187,7 +187,8 @@ button {
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    label, input{
+    label,
+    input {
         font-size: 15px;
     }
 }
