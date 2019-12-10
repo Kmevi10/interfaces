@@ -13,19 +13,19 @@
 @keyframes move {
     0% {
         transform: translate(0%);
-        transform: translate3d( none, none);
+        transform: translate3d( 0, 0, 0px);
         height: 5px;
     }
     30% {
         height: 5px;
         width: 30px;
         transform: translate(100vh);
-        transform: translate3d( none, none, 5px);
+        transform: translate3d( 0, 0, 5px);
     }
     60% {
         height: 5px;
         transform: translate(220vh);
-        transform: translate3d( none, none);
+        transform: translate3d( 0, 0, 0px);
     }
     100% {
         transform: translate(220vh);

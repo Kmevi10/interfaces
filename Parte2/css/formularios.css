@@ -161,6 +161,10 @@ button {
     transition: all 0.4s;
 }
 
+h2 {
+    text-decoration: none;
+}
+
 .formulario {
     width: 100%;
 }

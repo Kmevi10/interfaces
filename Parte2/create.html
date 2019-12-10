@@ -19,11 +19,11 @@
                     <form action="index.html" class="formulario validate-form">
                         <h1 class="title">Crea tu propia página</h1>
 
-                        <section>
+                        <div>
                             <label for="color">Color corporativo:</label>
-                            <input class="color" type="color" name="color">
-                        </section>
-                        <section>
+                            <input class="color" type="color" name="color" id="color">
+                        </div>
+                        <div>
                             <label for="tema">temática de la página:</label>
                             <div class="tema"><input type="radio" name="tema" id="tema">
                                 <label for="tema">Blog.</label>
@@ -32,21 +32,21 @@
                                 <label for="tema2">Video Juegos.</label>
                             </div>
                             <div class="tema"><input type="radio" name="tema" id="tema3">
-                                <label for="tema3" id="tema3">Trabajo.</label>
+                                <label for="tema3">Trabajo.</label>
                             </div>
                             <div class="tema"><input type="radio" name="tema" id="tema4">
                                 <label for="tema4">Definir más tarde.</label>
                             </div>
-                        </section>
-                        <section>
+                        </div>
+                        <div>
                             <label for="pag">Nº de páginas:</label>
-                            <input class="pag" type="number" name="pag" placeholder="8">
-                        </section>
-                        <section>
-                            <input class="pol" type="checkbox">
+                            <input class="pag" type="number" name="pag" id="pag" placeholder="8">
+                        </div>
+                        <div>
+                            <input id="pol" class="pol" type="checkbox">
                             <label for="pol">Acepto las políticas.</label>
-                        </section>
-                        <button>Registrarse</button>
+                        </div>
+                        <button type="submit">Crear</button>
                     </form>
                 </div>
             </div>
